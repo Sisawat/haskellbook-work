@@ -27,11 +27,10 @@ lenPlusOne xs = length xs + 1
 id' :: a -> a
 id' x = x
 
--- Oh, WHNF stuff (not super happy notation from two chapters ago was reintroduced with no review,
--- Also, it was not super clear when this was introduced that it was an ideomatic way to write code)
+-- Oh, WHNF stuff!
 id'' = \ x -> x
 
--- 4.3 (yeah, you mentioned it in the next problem, but at least one example in the chapter
+-- 4.3 (mentioned directly in the next problem, but at least one example in the chapter
 -- would have been better)
 first' = \ (x:xs) -> x
 
