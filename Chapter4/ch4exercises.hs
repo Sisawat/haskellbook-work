@@ -34,6 +34,6 @@ id'' = \ x -> x
 -- would have been better)
 first' = \ (x:xs) -> x
 
--- 4.4 (ok I am done complaining)
+-- 4.4 (ok I am done complaining, I see the utility of it now)
 fst' (a,b) = a
 fst'' = \ (a,b) -> a
