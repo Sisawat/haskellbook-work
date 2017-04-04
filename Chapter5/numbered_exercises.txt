@@ -1,11 +1,14 @@
 Exercises: Type Matching
 1. Function
   a) not :: Bool -> Bool
-  b) length :: [[a]] -> Int (correct: length :: Foldable t => t a -> Int)
+  b) length :: [a] -> Int (correct: length :: Foldable t => t a -> Int)
   c) concat :: String -> String -> String (correct: concat Foldable t => t [a] -> [a])
   d) head :: [a] -> a
   e) (<) :: Num a -> a -> Bool (correct: (<) :: Ord a => a -> a -> Bool)
 
 2. Type Signatures
   a) head :: [a] -> a
-  b) fst :: [[a]] -> a
+  b) concat :: [[a]] -> [a]
+  c) not :: Bool -> Bool
+  d) length :: [a] -> Int (wat)
+  e) (>) :: Ord a => a -> a -> Bool
